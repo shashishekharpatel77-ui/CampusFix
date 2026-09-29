@@ -1,0 +1,16 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body { margin: 0; background: #eef3f8; color: #1f2937; }
+header { background: #173b63; color: white; text-align: center; padding: 28px 20px; }
+header h1 { margin: 0 0 8px; }
+header p { margin: 0; }
+.container { width: 92%; max-width: 1000px; margin: 28px auto; }
+.card { background: white; padding: 24px; margin-bottom: 22px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.08); }
+h2 { margin-top: 0; }
+input, textarea { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #cbd5e1; border-radius: 7px; font-size: 15px; }
+textarea { min-height: 110px; resize: vertical; }
+button { border: 0; border-radius: 7px; padding: 11px 18px; background: #1976b9; color: white; cursor: pointer; font-weight: 600; }
+button:hover { opacity: .9; }
+.queue-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.secondary { background: #64748b; }
+.process { margin-top: 15px; background: #198754; }
+.complaint { padding: 14px; margin: 10px 0; border-left: 5px solid #1976b9; background: #f8fafc; border-radius: 6px; line-height: 1.6; }

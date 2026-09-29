@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusFix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>CAMPUSFIX</h1>
+    <p>Smart Campus Complaint System</p>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Submit Complaint</h2>
+        <input type="text" id="name" placeholder="Student Name">
+        <input type="text" id="type" placeholder="Complaint Category">
+        <textarea id="description" placeholder="Enter your complaint"></textarea>
+        <button onclick="submitComplaint()">Submit Complaint</button>
+    </div>
+
+    <div class="card">
+        <div class="queue-header">
+            <h2>Complaint Queue</h2>
+            <button class="secondary" onclick="loadComplaints()">Refresh</button>
+        </div>
+        <div id="complaintList"><p>Connect to Java backend to view the queue.</p></div>
+        <button class="process" onclick="processNextComplaint()">Process Next Complaint</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
